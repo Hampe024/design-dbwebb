@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+    .grid-box-technology {
+        display: inline;
+        visibility: hidden;
+    }
+    
+    .technology-nav {
+        display: none;
+    }
+    
+    .content {
+        visibility: visible;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $accent-color1;
+        padding: 30px;
+    }
+    
+}

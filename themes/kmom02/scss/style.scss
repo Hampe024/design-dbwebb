@@ -1,0 +1,68 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'style/variables';
+@import 'style/about';
+@import 'style/landingpage';
+@import 'style/technology';
+@import 'style/blockquotes';
+@import 'style/code';
+
+@import 'mobile-menu/technology-mobile';
+@import 'mobile-menu/landingpage-mobile';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.social {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    i {
+        margin: 7px;
+    }
+}
+
+.logo {
+    img {
+        width: 300px;
+    }
+}
+
+.active {
+    color: $font-alternative-color;
+}

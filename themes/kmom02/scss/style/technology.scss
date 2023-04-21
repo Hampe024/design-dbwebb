@@ -1,0 +1,35 @@
+.grid-box-technology {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 10fr;
+    grid-gap: 50px;
+    padding: 50px;
+    max-width: 70%;
+    background-color: $accent-color1;
+}
+
+.technology-nav {
+    ul {
+
+        padding: 20px;
+    }
+
+    li {
+
+        list-style-type: none;
+    }
+
+    li:hover {
+
+        color: $font-alternative-color;
+    }
+}
+
+.content {
+    p {
+
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
